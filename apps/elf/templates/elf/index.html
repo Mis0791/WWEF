@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World Wide Elf Foundation</title>
+</head>
+<body>
+    <a href="/elf/logout">Logout</a><br>
+    <br>
+    <form action="/login" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="Login">
+    </form>
+    <br>
+    <center><h1>Welcome to the World Wide Elf Foundation!</h1></center>
+    <table>
+        <center><h2>Our Mission: </h2></center>
+        <center><p>Elves slave away for most of the year up until Christmas and never reap the rewards of their hard labor. The World Wide Elf Foundation (W.W.E.F.) was founded by retired elves to help others receive donations to aid them in their efforts to continue spreading joy to children throughout the world. W.W.E.F. believes that elves are living beings too and should be treated as such. Don't be a cotton-headed ninny muggins, please donate today and help an elf in need! </p></center>
+</body>
+</html>
