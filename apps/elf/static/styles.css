@@ -1,0 +1,103 @@
+
+
+body {
+    width: auto;
+    height: 100%;
+    background-image: url(mistletoe.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+
+}
+
+.wrapper {
+    width: auto;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.row-one{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    margin-left: 30px;
+    
+}
+
+.elfone{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.working-elf-image{
+    width: 75%;
+
+}
+
+.elftwo{
+    display: inline-block;
+    width: 275px;
+    margin-right: 80px;
+}
+
+.crying-elf-image{
+    width: 85%;
+    
+    }
+
+.elfthree{
+    display: inline-block;
+    width: 275px;
+}
+
+.sign-elf-image{
+    width: 75%;
+    
+    }
+
+.row-two{
+    margin-left: 20px;
+    
+    }
+
+.elffour{
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.flying-elf-image{
+   
+}
+
+.elffive{
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.presents-elf-image{
+    width: 75%;
+    
+}
+
+.elfsix{
+    display: inline-block;
+}
+
+.typing-elf-image{
+    width: 65%;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    margin-left: 50px;
+}
