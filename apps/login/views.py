@@ -14,7 +14,7 @@ def register(request):
         return redirect('/')
     request.session['user_id'] = result.id
     messages.success(request, "Successfully registered!")
-    return redirect('/') 
+    return redirect('/login/index.html') 
 
 def login(request):
     result = User.objects.validate_login(request.POST)
@@ -24,7 +24,7 @@ def login(request):
         return redirect('/')
     request.session['user_id'] = result.id
     messages.success(request, "Successfully logged in!")
-    return redirect('/') # redirects to second app
+    return redirect('/elf/sponsor') 
 
 def success(request):
     try:
