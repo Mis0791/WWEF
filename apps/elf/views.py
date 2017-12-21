@@ -23,6 +23,9 @@ def index(request):
     }
     return render(request, 'elf/index.html', context)
 
+def elf(request):
+    return render(request, 'elf/elf.html')
+
 # def create(request):
 #     """
 #     This allows any user that is logged in to create a new quote which then populates up in the quotable quotes list. Newquote is a variable set to create this new wish and post it to the database and newquote.quotes.add(people) is the query that pulls the quotes from the database and displays them under my favorites list on the page. The commented out line below added new quotes to favorites when it needed to go up to the quotable quotes list. If I had an exam that requires new data to immediately go into my list just add the commented line in and add a variable to equal the new created quote. 
